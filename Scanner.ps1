@@ -9,9 +9,9 @@ $Worksheet = $Workbook.Worksheets.Item(1)
 # Define header names and sample data for EVE Online account
 $Headers = @("Character Name", "Skill Points", "Credit Balance", "Corporation", "Ship Type")
 $Data = @(
-    @("John Doe", 2000000, 5000000, "Corp A", "Frigate"),
-    @("Jane Smith", 3500000, 12000000, "Corp B", "Cruiser"),
-    @("Max Mustermann", 5000000, 3000000, "Corp C", "Destroyer")
+    @("John Doe", 2000000, 5000000, "Corp A", "Space Drone-Frigate"),
+    @("Jane Smith", 3500000, 12000000, "Corp B", "Space Drone-Cruiser"),
+    @("Max Mustermann", 5000000, 3000000, "Corp C", "Space Drone-Destroyer")
 )
 
 # Write headers to the first row
